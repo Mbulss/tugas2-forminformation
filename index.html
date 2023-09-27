@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCI ASSIGNMENT-02</title>
+
+      <style>
+        
+        body {
+            background-image: url(bag.jpg);
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            font-family: Arial, sans-serif;
+  
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid rgb(0, 0, 0);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        fieldset {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HCI ASSIGNMENT-02</h1>
+    
+    <table>
+        <tr>
+            <td colspan="2"><fieldset>
+                <legend>Form Information</legend>
+                <label for="Full Name"> Full Name:</label>
+                <input type="text" id="Full Name" name="Full Name" ><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age"  required><br><br>
+                
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male"> Male
+                <input type="radio" id="female" name="gender" value="female"> Female<br><br>
+                
+                <label for="interests">Interests:</label>
+              
+                <input type="checkbox" id="Sports" name="interests" value="Sports"> Sports
+                <input type="checkbox" id="Game" name="interests" value="Game"> Game<br><br>
+                <input type="Others" id="Others" name="Others" placeholder="Others Write Here"required><br><br>
+                
+                <label for="Religion">Choose a Religion:</label>
+
+                <select name="Religon" id="Regilion"><br>
+                <option value="Muslim">Muslim</option>
+                <option value="Hinduism">Hinduism</option>
+                <option value="Christianity">Christianity</option>
+                <option value="Buddhism">Buddhism</option>
+                <option value="Catholic">Catholic</option>
+                <option value="Portestan">Portestan</option>
+
+                </select><br><br>
+
+                <label for="Religion">Choose a Country :</label>
+
+                <select name="Country" id="Country">
+                <option value="Indonesia">Indonesia</option>
+                <option value="Australia">Australia</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Others">Others</option>
+
+                </select><br><br> 
+                
+                <label for="birthdate">Birthdate:</label>
+                <input type="date" id="birthdate" name="birthdate"><br><br>
+
+                
+                <input type="submit" value="Submit"><br><br>
+                <input type="reset" value="Clear Form"><br>
+
+            
+        </tr>
+        <tr>
+            <td><label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="5" cols="30"></textarea></td>
+            </fieldset></td>
+            <td rowspan="2"><img src="soe.jpg" alt="Your Image" width="200" title="Awas Diliat terus nanti ada petrus"></td> 
+        </tr>
+     
+    </table>
+</body>
+</html>
